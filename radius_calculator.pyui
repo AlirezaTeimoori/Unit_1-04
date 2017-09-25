@@ -1,0 +1,88 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {480, 320}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{26, 36}, {245, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "95C1A7F0-52B8-4F4E-B110-DABED65128A9",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Enter radius(int < 1,000,000)",
+          "name" : "enter_radius_lable",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{288, 36}, {157, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{140, 144}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "05B4E251-B55A-48E0-A199-6F27E12BE8BA",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "radius_text_field",
+          "font_size" : 17
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{93, 106}, {80, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "calculate_circumferenece",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "Calculate",
+          "uuid" : "EC93D59F-E8F0-4C91-A0C6-E60E44138DCF",
+          "class" : "Button",
+          "name" : "calculate_button",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{26, 163}, {419, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "81D79399-6367-4980-8AC4-920750C86522",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "answer_lable",
+          "font_size" : 18
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
